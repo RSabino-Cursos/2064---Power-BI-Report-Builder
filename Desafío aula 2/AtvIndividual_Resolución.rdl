@@ -1,0 +1,679 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report MustUnderstand="df" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns:df="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition/defaultfontfamily" xmlns:am="http://schemas.microsoft.com/sqlserver/reporting/authoringmetadata">
+  <rd:ReportUnitType>Mm</rd:ReportUnitType>
+  <rd:ReportID>ba1f9125-3e34-4b6a-a4fa-0581fec2e6cd</rd:ReportID>
+  <am:AuthoringMetadata>
+    <am:CreatedBy>
+      <am:Name>PBIRB</am:Name>
+      <am:Version>15.7.1806.11</am:Version>
+    </am:CreatedBy>
+    <am:UpdatedBy>
+      <am:Name>PBIRB</am:Name>
+      <am:Version>15.7.1806.11</am:Version>
+    </am:UpdatedBy>
+    <am:LastModifiedTimestamp>2023-12-14T20:21:55.6669602Z</am:LastModifiedTimestamp>
+  </am:AuthoringMetadata>
+  <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource1">
+      <rd:SecurityType>Integrated</rd:SecurityType>
+      <ConnectionProperties>
+        <DataProvider>ENTERDATA</DataProvider>
+        <ConnectString />
+        <IntegratedSecurity>true</IntegratedSecurity>
+      </ConnectionProperties>
+      <rd:DataSourceID>0e010f8e-925e-4340-a692-09b2856fc538</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Query>
+        <DataSourceName>DataSource1</DataSourceName>
+        <rd:DesignerState>
+          <DataGrid xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
+            <RowNumber>10</RowNumber>
+            <ColumnNumber>3</ColumnNumber>
+            <ColumnName ColumnIndex="0" ColumnWidth="100" DataType="String">Prioridad</ColumnName>
+            <ColumnName ColumnIndex="1" ColumnWidth="100" DataType="String">Tareas</ColumnName>
+            <ColumnName ColumnIndex="2" ColumnWidth="100" DataType="String">Estado</ColumnName>
+            <Data ColumnIndex="0" RowIndex="0">5</Data>
+            <Data ColumnIndex="1" RowIndex="0">Enviar la documentación a Marcela Mendes</Data>
+            <Data ColumnIndex="2" RowIndex="0">Concluida</Data>
+            <Data ColumnIndex="0" RowIndex="1">4</Data>
+            <Data ColumnIndex="1" RowIndex="1">Finalizar el diccionario de variables de la base de datos del proyecto </Data>
+            <Data ColumnIndex="2" RowIndex="1">Concluida</Data>
+            <Data ColumnIndex="0" RowIndex="2">10</Data>
+            <Data ColumnIndex="1" RowIndex="2">Realizar las pruebas de validación del modelo del proyecto </Data>
+            <Data ColumnIndex="2" RowIndex="2">No iniciada</Data>
+            <Data ColumnIndex="0" RowIndex="3">7</Data>
+            <Data ColumnIndex="1" RowIndex="3">Análisis exploratorio de las variables disponibles - En curso</Data>
+            <Data ColumnIndex="2" RowIndex="3">En curso</Data>
+            <Data ColumnIndex="0" RowIndex="4">3</Data>
+            <Data ColumnIndex="1" RowIndex="4">Solicitud de llamada para acceder a las bases de datos necesarias del proyecto </Data>
+            <Data ColumnIndex="2" RowIndex="4">Concluida</Data>
+            <Data ColumnIndex="0" RowIndex="5">6</Data>
+            <Data ColumnIndex="1" RowIndex="5">Finalización del ETL de las bases de datos del proyecto </Data>
+            <Data ColumnIndex="2" RowIndex="5">En curso</Data>
+            <Data ColumnIndex="0" RowIndex="6">2</Data>
+            <Data ColumnIndex="1" RowIndex="6">Brainstorm de la información necesaria para la construcción del proyecto </Data>
+            <Data ColumnIndex="2" RowIndex="6">Concluida</Data>
+            <Data ColumnIndex="0" RowIndex="7">1</Data>
+            <Data ColumnIndex="1" RowIndex="7">Finalizar el alcance y entregables del proyecto </Data>
+            <Data ColumnIndex="2" RowIndex="7">Concluida</Data>
+            <Data ColumnIndex="0" RowIndex="8">8</Data>
+            <Data ColumnIndex="1" RowIndex="8">Levantamiento de las posibles metodologías para el proyecto </Data>
+            <Data ColumnIndex="2" RowIndex="8">En curso</Data>
+            <Data ColumnIndex="0" RowIndex="9">9</Data>
+            <Data ColumnIndex="1" RowIndex="9">Tratamiento de outliers (valores atípicos) de los datos</Data>
+            <Data ColumnIndex="2" RowIndex="9">En curso</Data>
+          </DataGrid>
+        </rd:DesignerState>
+        <CommandText>&lt;Query&gt;
+  &lt;XmlData&gt;
+    &lt;Data&gt;
+      &lt;Row&gt;
+        &lt;Prioridad&gt;5&lt;/Prioridad&gt;
+        &lt;Tareas&gt;Enviar la documentación a Marcela Mendes&lt;/Tareas&gt;
+        &lt;Estado&gt;Concluida&lt;/Estado&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Prioridad&gt;4&lt;/Prioridad&gt;
+        &lt;Tareas&gt;Finalizar el diccionario de variables de la base de datos del proyecto &lt;/Tareas&gt;
+        &lt;Estado&gt;Concluida&lt;/Estado&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Prioridad&gt;10&lt;/Prioridad&gt;
+        &lt;Tareas&gt;Realizar las pruebas de validación del modelo del proyecto &lt;/Tareas&gt;
+        &lt;Estado&gt;No iniciada&lt;/Estado&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Prioridad&gt;7&lt;/Prioridad&gt;
+        &lt;Tareas&gt;Análisis exploratorio de las variables disponibles - En curso&lt;/Tareas&gt;
+        &lt;Estado&gt;En curso&lt;/Estado&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Prioridad&gt;3&lt;/Prioridad&gt;
+        &lt;Tareas&gt;Solicitud de llamada para acceder a las bases de datos necesarias del proyecto &lt;/Tareas&gt;
+        &lt;Estado&gt;Concluida&lt;/Estado&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Prioridad&gt;6&lt;/Prioridad&gt;
+        &lt;Tareas&gt;Finalización del ETL de las bases de datos del proyecto &lt;/Tareas&gt;
+        &lt;Estado&gt;En curso&lt;/Estado&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Prioridad&gt;2&lt;/Prioridad&gt;
+        &lt;Tareas&gt;Brainstorm de la información necesaria para la construcción del proyecto &lt;/Tareas&gt;
+        &lt;Estado&gt;Concluida&lt;/Estado&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Prioridad&gt;1&lt;/Prioridad&gt;
+        &lt;Tareas&gt;Finalizar el alcance y entregables del proyecto &lt;/Tareas&gt;
+        &lt;Estado&gt;Concluida&lt;/Estado&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Prioridad&gt;8&lt;/Prioridad&gt;
+        &lt;Tareas&gt;Levantamiento de las posibles metodologías para el proyecto &lt;/Tareas&gt;
+        &lt;Estado&gt;En curso&lt;/Estado&gt;
+      &lt;/Row&gt;
+      &lt;Row&gt;
+        &lt;Prioridad&gt;9&lt;/Prioridad&gt;
+        &lt;Tareas&gt;Tratamiento de outliers (valores atípicos) de los datos&lt;/Tareas&gt;
+        &lt;Estado&gt;En curso&lt;/Estado&gt;
+      &lt;/Row&gt;
+    &lt;/Data&gt;
+  &lt;/XmlData&gt;
+  &lt;ElementPath&gt;Data{}/Row{Prioridad(String),Tareas(String),Estado(String)}&lt;/ElementPath&gt;
+&lt;/Query&gt;</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="Prioridad">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>Prioridad</DataField>
+        </Field>
+        <Field Name="Tareas">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>Tareas</DataField>
+        </Field>
+        <Field Name="Estado">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>Estado</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Textbox Name="Textbox1">
+            <rd:DefaultName>Textbox1</rd:DefaultName>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value> Finalizadas</Value>
+                    <Style>
+                      <FontSize>14pt</FontSize>
+                      <Color>White</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>8.6995mm</Top>
+            <Left>0mm</Left>
+            <Height>8.64583mm</Height>
+            <Width>152.4mm</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>SeaGreen</BackgroundColor>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Line Name="Line1">
+            <Top>18.75645mm</Top>
+            <Left>0mm</Left>
+            <Height>0mm</Height>
+            <Width>152.4mm</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Color>SeaGreen</Color>
+                <Style>Solid</Style>
+              </Border>
+              <TopBorder>
+                <Color>SeaGreen</Color>
+              </TopBorder>
+              <BottomBorder>
+                <Color>SeaGreen</Color>
+              </BottomBorder>
+              <LeftBorder>
+                <Color>SeaGreen</Color>
+              </LeftBorder>
+              <RightBorder>
+                <Color>SeaGreen</Color>
+              </RightBorder>
+            </Style>
+          </Line>
+          <Textbox Name="Textbox4">
+            <rd:DefaultName>Textbox1</rd:DefaultName>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Em progreso</Value>
+                    <Style>
+                      <FontSize>14pt</FontSize>
+                      <Color>White</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>39.06736mm</Top>
+            <Left>0mm</Left>
+            <Height>8.64583mm</Height>
+            <Width>152.4mm</Width>
+            <ZIndex>2</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>SeaGreen</BackgroundColor>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Line Name="Line2">
+            <Top>49.47708mm</Top>
+            <Left>0.00001mm</Left>
+            <Height>0mm</Height>
+            <Width>152.4mm</Width>
+            <ZIndex>3</ZIndex>
+            <Style>
+              <Border>
+                <Color>SeaGreen</Color>
+                <Style>Solid</Style>
+              </Border>
+              <TopBorder>
+                <Color>SeaGreen</Color>
+              </TopBorder>
+              <BottomBorder>
+                <Color>SeaGreen</Color>
+              </BottomBorder>
+              <LeftBorder>
+                <Color>SeaGreen</Color>
+              </LeftBorder>
+              <RightBorder>
+                <Color>SeaGreen</Color>
+              </RightBorder>
+            </Style>
+          </Line>
+          <Tablix Name="Tablix3">
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>152.4mm</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>12.61458mm</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Rectangle Name="Rectangle3">
+                          <ReportItems>
+                            <Textbox Name="Tarefas">
+                              <rd:DefaultName>Tarefas</rd:DefaultName>
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!Tareas.Value</Value>
+                                      <Style>
+                                        <FontSize>12pt</FontSize>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <ListStyle>Bulleted</ListStyle>
+                                  <ListLevel>1</ListLevel>
+                                  <Style />
+                                </Paragraph>
+                              </Paragraphs>
+                              <Top>3.175mm</Top>
+                              <Left>3.80158mm</Left>
+                              <Height>9.43958mm</Height>
+                              <Width>131.72654mm</Width>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <VerticalAlign>Middle</VerticalAlign>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                          </ReportItems>
+                          <KeepTogether>true</KeepTogether>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                          </Style>
+                        </Rectangle>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <Group Name="Details" />
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <Filters>
+              <Filter>
+                <FilterExpression>=Fields!Estado.Value</FilterExpression>
+                <Operator>Equal</Operator>
+                <FilterValues>
+                  <FilterValue>Concluida</FilterValue>
+                </FilterValues>
+              </Filter>
+            </Filters>
+            <Top>22.987mm</Top>
+            <Left>0.00001mm</Left>
+            <Height>12.61458mm</Height>
+            <Width>152.4mm</Width>
+            <ZIndex>4</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Tablix>
+          <Tablix Name="Tablix4">
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>152.4mm</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>9.43958mm</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Rectangle Name="Rectangle5">
+                          <ReportItems>
+                            <Textbox Name="Tarefas2">
+                              <rd:DefaultName>Tarefas</rd:DefaultName>
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Fields!Tareas.Value</Value>
+                                      <Style>
+                                        <FontSize>12pt</FontSize>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <ListStyle>Bulleted</ListStyle>
+                                  <ListLevel>1</ListLevel>
+                                  <Style />
+                                </Paragraph>
+                              </Paragraphs>
+                              <Top>0mm</Top>
+                              <Left>3.80159mm</Left>
+                              <Height>9.43958mm</Height>
+                              <Width>131.72654mm</Width>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <VerticalAlign>Middle</VerticalAlign>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                          </ReportItems>
+                          <KeepTogether>true</KeepTogether>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                          </Style>
+                        </Rectangle>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <Group Name="Details1" />
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <Filters>
+              <Filter>
+                <FilterExpression>=Fields!Estado.Value</FilterExpression>
+                <Operator>Equal</Operator>
+                <FilterValues>
+                  <FilterValue>Concluida</FilterValue>
+                </FilterValues>
+              </Filter>
+            </Filters>
+            <Top>52.88492mm</Top>
+            <Left>0mm</Left>
+            <Height>9.43958mm</Height>
+            <Width>152.4mm</Width>
+            <ZIndex>5</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Tablix>
+        </ReportItems>
+        <Height>81.85367mm</Height>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Body>
+      <Width>152.40001mm</Width>
+      <Page>
+        <PageHeader>
+          <Height>32.01458mm</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="ReportTitle">
+              <rd:WatermarkTextbox>Title</rd:WatermarkTextbox>
+              <rd:DefaultName>ReportTitle</rd:DefaultName>
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Informe de Actividades Individual</Value>
+                      <Style>
+                        <FontFamily>Segoe UI Light</FontFamily>
+                        <FontSize>28pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                        <Color>SeaGreen</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <Top>4.23333mm</Top>
+              <Height>12.7mm</Height>
+              <Width>152.4mm</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox2">
+              <rd:DefaultName>Textbox1</rd:DefaultName>
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>NOMBRE: </Value>
+                      <Style>
+                        <FontWeight>Bold</FontWeight>
+                        <Color>DimGray</Color>
+                      </Style>
+                    </TextRun>
+                    <TextRun>
+                      <Value>=User!UserID</Value>
+                      <Style>
+                        <Color>DimGray</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <Top>18.69722mm</Top>
+              <Left>12.26826mm</Left>
+              <Height>6.44097mm</Height>
+              <Width>59.13124mm</Width>
+              <ZIndex>1</ZIndex>
+              <Style>
+                <Border>
+                  <Color>LightGrey</Color>
+                  <Style>Solid</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox3">
+              <rd:DefaultName>Textbox1</rd:DefaultName>
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>FECHA:</Value>
+                      <Style>
+                        <FontWeight>Bold</FontWeight>
+                        <Color>DimGray</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <Top>18.69722mm</Top>
+              <Left>75.70367mm</Left>
+              <Height>6.44097mm</Height>
+              <Width>55.69166mm</Width>
+              <ZIndex>2</ZIndex>
+              <Style>
+                <Border>
+                  <Color>LightGrey</Color>
+                  <Style>Solid</Style>
+                </Border>
+                <TopBorder>
+                  <Color>LightGrey</Color>
+                  <Style>Solid</Style>
+                  <Width>1pt</Width>
+                </TopBorder>
+                <BottomBorder>
+                  <Color>LightGrey</Color>
+                  <Style>Solid</Style>
+                  <Width>1pt</Width>
+                </BottomBorder>
+                <LeftBorder>
+                  <Color>LightGrey</Color>
+                  <Style>Solid</Style>
+                  <Width>1pt</Width>
+                </LeftBorder>
+                <RightBorder>
+                  <Color>LightGrey</Color>
+                  <Style>Solid</Style>
+                  <Width>1pt</Width>
+                </RightBorder>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageHeader>
+        <PageFooter>
+          <Height>11.43mm</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="ExecutionTime">
+              <rd:DefaultName>ExecutionTime</rd:DefaultName>
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Relatório gerado em </Value>
+                      <Style>
+                        <Color>Silver</Color>
+                      </Style>
+                    </TextRun>
+                    <TextRun>
+                      <Value>=Globals!ExecutionTime</Value>
+                      <Style>
+                        <Color>Silver</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <Top>5.08mm</Top>
+              <Left>83.07917mm</Left>
+              <Height>6.35mm</Height>
+              <Width>69.32083mm</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageFooter>
+        <PageHeight>29.7cm</PageHeight>
+        <PageWidth>21cm</PageWidth>
+        <LeftMargin>2cm</LeftMargin>
+        <RightMargin>2cm</RightMargin>
+        <TopMargin>2cm</TopMargin>
+        <BottomMargin>2cm</BottomMargin>
+        <ColumnSpacing>0.13cm</ColumnSpacing>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <ReportParametersLayout>
+    <GridLayoutDefinition>
+      <NumberOfColumns>4</NumberOfColumns>
+      <NumberOfRows>2</NumberOfRows>
+    </GridLayoutDefinition>
+  </ReportParametersLayout>
+</Report>

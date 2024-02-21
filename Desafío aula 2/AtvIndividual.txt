@@ -1,0 +1,11 @@
+Prioridad	Tareas	Estado
+5	Enviar la documentación a Marcela Mendes	Concluida
+4	Finalizar el diccionario de variables de la base de datos del proyecto 	Concluida
+10	Realizar las pruebas de validación del modelo del proyecto 	No iniciada
+7	Análisis exploratorio de las variables disponibles - En curso	En curso
+3	Solicitud de llamada para acceder a las bases de datos necesarias del proyecto 	Concluida
+6	Finalización del ETL de las bases de datos del proyecto 	En curso
+2	Brainstorm de la información necesaria para la construcción del proyecto 	Concluida
+1	Finalizar el alcance y entregables del proyecto 	Concluida
+8	Levantamiento de las posibles metodologías para el proyecto 	En curso
+9	Tratamiento de outliers (valores atípicos) de los datos	En curso
